@@ -1,6 +1,5 @@
 package com.financeiro.podercontabilidade.Usuarios.model;
 
-import com.financeiro.podercontabilidade.Usuarios.enummeration.TipoEmpresa;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -17,9 +16,9 @@ public class Usuario
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     private String nomePJ;
-    private String nomeFantasia;
     private String cnpj;
     private String cpf;
-    private TipoEmpresa tipo;
+    private String email;
+    private String telefone;
 
 }

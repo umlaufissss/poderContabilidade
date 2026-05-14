@@ -34,10 +34,10 @@ public class serviceUsuario
         Usuario usuario = buscarPorId(id);
 
         usuario.setNomePJ(dados.getNomePJ());
-        usuario.setNomeFantasia(dados.getNomeFantasia());
         usuario.setCnpj(dados.getCnpj());
         usuario.setCpf(dados.getCpf());
-        usuario.setTipo(dados.getTipo());
+        usuario.setEmail(dados.getEmail());
+        usuario.setTelefone(dados.getTelefone());
 
         return repository.save(usuario);
     }

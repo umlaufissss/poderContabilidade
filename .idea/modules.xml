@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/podercontabilidade.iml" filepath="$PROJECT_DIR$/.idea/podercontabilidade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/podercontabilidade/podercontabilidade.iml" filepath="$PROJECT_DIR$/podercontabilidade/podercontabilidade.iml" />
     </modules>
   </component>
 </project>
